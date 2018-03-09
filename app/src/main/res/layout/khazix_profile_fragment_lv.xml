@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:id="@+id/semester_tv"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="2014봄"
+        android:textColor="#A5A5A5"
+        android:gravity="center_horizontal"
+        android:textSize="16.5sp" />
+
+    <LinearLayout
+        android:layout_width="210dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/code_tv"
+            android:layout_width="90sp"
+            android:layout_height="wrap_content"
+            android:text="CS350"
+            android:layout_marginRight="15dp"
+            android:textSize="16.5sp"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:minHeight="0dp"
+            android:minWidth="0dp"
+            android:paddingTop="4sp"
+            android:paddingBottom="4sp"
+            android:paddingLeft="10sp"
+            android:paddingRight="10sp"
+            android:background="@drawable/base_code_label_view_bg" />
+
+
+        <TextView
+            android:id="@+id/name_tv"
+            android:singleLine="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#2294D3"
+            android:textSize="16.5sp"
+            android:text="전산학 프로젝트" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/grade_tv"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:text="A+"
+        android:visibility="invisible"
+        android:textColor="#A5A5A5"
+        android:textSize="16.5sp"
+        android:gravity="center_horizontal" />
+
+
+</LinearLayout>

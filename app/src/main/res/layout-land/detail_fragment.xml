@@ -1,0 +1,51 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:paddingTop="?android:attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="30dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:background="@drawable/detail_fragment_main_circle_bg"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/code_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CS320"
+                android:textSize="50sp"
+                android:textColor="#3F3F3F" />
+
+            <TextView
+                android:id="@+id/name_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="전산학 프로젝트"
+                android:textSize="25sp"
+                android:textColor="#2294D3" />
+
+        </LinearLayout>
+
+        <TextView
+            android:textColor="#A5A5A5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="아래 과목들에 의해 추천되었습니다."
+            android:textSize="18sp"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+
+
+</ScrollView>

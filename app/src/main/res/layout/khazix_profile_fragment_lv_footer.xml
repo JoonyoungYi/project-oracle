@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingBottom="?android:attr/actionBarSize"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <View
+        android:layout_marginTop="20dp"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/detail_fragment_divider_circle_bg"
+        android:layout_gravity="center_horizontal" />
+
+
+    <Button
+        android:id="@+id/gpa_btn"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/khazix_profile_fragment_lv_footer_btn_bg"
+        android:textColor="#FFFFFF"
+        android:text="학점가져오기" />
+
+</LinearLayout>

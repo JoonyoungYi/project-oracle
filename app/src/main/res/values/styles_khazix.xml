@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?><!-- File created by the Android Action Bar Style Generator
+
+     Copyright (C) 2011 The Android Open Source Project
+     Copyright (C) 2012 readyState Software Ltd
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+
+    <style name="Theme.Khazix" parent="@android:style/Theme.Holo.Light">
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:actionBarItemBackground">@drawable/selectable_background_khazix</item>
+        <item name="android:popupMenuStyle">@style/PopupMenu.Khazix</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Khazix</item>
+        <item name="android:actionBarTabStyle">@style/ActionBarTabStyle.Khazix</item>
+        <item name="android:actionDropDownStyle">@style/DropDownNav.Khazix</item>
+        <item name="android:actionBarStyle">@style/ActionBar.Solid.Khazix</item>
+        <item name="android:actionModeBackground">@drawable/cab_background_top_khazix</item>
+        <item name="android:actionModeSplitBackground">@drawable/cab_background_bottom_khazix</item>
+        <item name="android:actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Khazix</item>
+
+
+    </style>
+
+    <style name="ActionBar.Solid.Khazix" parent="@android:style/Widget.Holo.Light.ActionBar.Solid">
+        <item name="android:background">@drawable/ab_solid_khazix</item>
+        <item name="android:backgroundStacked">@drawable/ab_stacked_solid_khazix</item>
+        <item name="android:backgroundSplit">@drawable/ab_bottom_solid_khazix</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Khazix</item>
+    </style>
+
+    <style name="ActionBar.Transparent.Khazix" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@drawable/ab_transparent_khazix</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Khazix</item>
+    </style>
+
+    <style name="PopupMenu.Khazix" parent="@android:style/Widget.Holo.Light.ListPopupWindow">
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_khazix</item>
+    </style>
+
+    <style name="DropDownListView.Khazix" parent="@android:style/Widget.Holo.Light.ListView.DropDown">
+        <item name="android:listSelector">@drawable/selectable_background_khazix</item>
+    </style>
+
+    <style name="ActionBarTabStyle.Khazix" parent="@android:style/Widget.Holo.Light.ActionBar.TabView">
+        <item name="android:background">@drawable/tab_indicator_ab_khazix</item>
+    </style>
+
+    <style name="DropDownNav.Khazix" parent="@android:style/Widget.Holo.Light.Spinner">
+        <item name="android:background">@drawable/spinner_background_ab_khazix</item>
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_khazix</item>
+        <item name="android:dropDownSelector">@drawable/selectable_background_khazix</item>
+    </style>
+
+    <style name="ProgressBar.Khazix" parent="@android:style/Widget.Holo.Light.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_horizontal_khazix</item>
+    </style>
+
+    <style name="ActionButton.CloseMode.Khazix" parent="@android:style/Widget.Holo.Light.ActionButton.CloseMode">
+        <item name="android:background">@drawable/btn_cab_done_khazix</item>
+    </style>
+
+    <!-- this style is only referenced in a Light.DarkActionBar based theme -->
+    <style name="Theme.Khazix.Widget" parent="@android:style/Theme.Holo">
+        <item name="android:popupMenuStyle">@style/PopupMenu.Khazix</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Khazix</item>
+    </style>
+
+</resources>

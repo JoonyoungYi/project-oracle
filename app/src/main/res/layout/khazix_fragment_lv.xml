@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:background="#FFFFFF">
+
+    <FrameLayout
+        android:id="@+id/circle_fl"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:background="#1B92BC">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="20sp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/code_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CS320"
+                android:textSize="50sp"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/name_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="전프"
+                android:gravity="center"
+                android:singleLine="true"
+                android:textSize="25sp"
+                android:textColor="#FFFFFF" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/khazix_fragment_lv_fl_mask" />
+
+        <TextView
+            android:id="@+id/rank_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|bottom"
+            android:text="1st"
+            android:textSize="25sp"
+            android:textColor="#888888" />
+
+    </FrameLayout>
+
+
+</LinearLayout>

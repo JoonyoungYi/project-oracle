@@ -1,0 +1,11 @@
+<resources>
+        <string name="title_activity_login">Login</string>
+
+    <!-- Strings related to login -->
+    <string name="error_invalid_email">유효하지 않은 아이디와 비밀번호입니다.</string>
+    <string name="error_field_required">KAIST 포탈 아이디를 입력해주세요.</string>
+
+    <!-- -->
+    <string name="action_login">로그인</string>
+
+</resources>

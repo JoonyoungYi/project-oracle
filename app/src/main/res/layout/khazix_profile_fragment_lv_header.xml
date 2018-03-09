@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingTop="?android:attr/actionBarSize"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="30dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:background="@drawable/detail_fragment_main_circle_bg"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="50sp"
+            android:textColor="#3F3F3F" />
+
+        <TextView
+            android:id="@+id/department_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+
+            android:textSize="25sp"
+            android:textColor="#2294D3" />
+
+    </LinearLayout>
+
+    <TextView
+        android:textColor="#3F3F3F"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="수강한 과목"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal" />
+
+
+</LinearLayout>
